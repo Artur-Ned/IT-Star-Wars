@@ -1,0 +1,229 @@
+/* * {
+    margin: 0px;
+} */
+
+body {
+    width: auto;
+    background-image: url(img/bg/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+width: 200px;
+height: 100px;
+/* border-radius: 50px; */
+background-image: url(img/logo2.png);
+background-repeat: no-repeat;
+background-size: contain;
+margin-top: 20px;
+margin-left: 70px;
+/* margin-bottom: 20px; */
+}
+
+#main_div {
+    display: flex;
+    align-items: center;
+}
+
+
+#people-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 284px;
+    height: 432px;
+    margin-top: 5px;
+
+}
+
+#people-list li{
+/* position: fixed; */
+display: flex;
+width: 130px;
+height: 75px;
+border: 1px solid black;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+margin-right: 10px;
+cursor: pointer;
+background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(img/bg/btn.jpg);
+/* box-shadow: 0 0 43px 1px rgba(255, 193, 0.1) inset; */
+/* box-shadow: 0 5px 30px 0 rgba(255, 193, 7, 0.966); */
+box-shadow: 0 0 5px 1px rgba(255, 193, 0.1);
+color: rgb(255, 193, 7);
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 24px;
+/* color: aliceblue; */
+}
+
+#people-list li:hover, #btnClous:hover {
+        transform: scale(1.1);
+        /* box-shadow: 0 0 43px 1px rgba(255, 193, 0.1) inset; */
+        /* box-shadow: 0 0 5px 1px rgba(255, 193, 0.1); */
+        transition: box-shadow 0.5s, transform 0.5s;
+}
+
+#people-list li:active, #btnClous:hover {
+    box-shadow: 0 0 43px 1px rgba(255, 193, 0.1) inset;
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+
+.fon {
+    background-image: url(img/bg/red.jpg);
+    box-shadow: 0 0 70px 1px rgba(255, 193, 0.1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: 82%;
+    transform: translate(-50%, -50%) scale(1);
+    margin: 0px;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-top: 5px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* transform: rotate(180deg); */
+    /* transform: rotate(-180deg); */
+    transition: transform top 5s, left 5s;
+}
+
+#fon .is-hidden {
+    /* background-image: url(img/bg/red.jpg); */
+    box-shadow: 0 0 70px 1px rgba(255, 193, 0.1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 325px;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: translate(-50%, -50%) scale(1);
+    margin: 0px;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-top: 5px;
+    transform: rotate(-180deg);
+    transition: top 5s, left 5s;
+} 
+
+
+
+
+
+
+
+
+#name {
+width: 300px;
+height: 40px;
+font-size: 30px;
+text-align: center;
+}
+
+/* #age, .age {
+width: 50%;
+
+} */
+.is-hidden {
+    /* opacity: 0; */
+    visibility: hidden;
+    /* pointer-events: none; */
+    /* display: none; */
+    /* background-image: none; */
+} 
+
+
+.fix {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+} 
+
+.fon div {
+    /* border: 2px solid black; */
+    width: 45%;
+    /* height: 50px; */
+    margin-bottom: 0px;
+    color: rgba(255, 193, 0.1);
+    /* background-color: blue; */
+    margin-bottom: 5px;
+    
+}
+
+.div_btn {
+    margin-left: 10px;
+
+}
+
+#top {
+    background-image: url(img/11.png);
+   
+    width: 38px;
+    height: 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2); */
+    margin-bottom: 2px;
+    border-radius: 37px;
+}
+
+#down {
+    background-image: url(img/22.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 37px;
+    
+    width: 38px;
+        /* box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2); */
+    height: 140px;
+    margin-top: 2px;
+}
+
+
+ #top:hover, 
+ #down:hover{
+cursor: pointer;
+box-shadow: 0 5px 30px 0 #005dd5 inset, 0 5px 30px 0 rgba(0, 93, 213, 1);
+/* box-shadow: 0 5px 30px 0 rgba(0, 93, 213, 1); */
+}
+
+#top:active,
+#down:active {
+    cursor: pointer;
+    box-shadow: 0 5px 30px 0 rgba(255, 193, 0.1) inset, 0 5px 30px 0 rgba(255, 193, 0.1);
+    /* box-shadow: 0 5px 30px 0 rgba(0, 93, 213, 1); */
+}
+
+#btnClous {
+    margin-bottom: 15px;
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: rgba(255, 193, 0.1);
+    background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(img/bg/btn.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    border-style:none ;
+    box-shadow: 0 0 5px 1px rgba(255, 193, 0.1);
+    font-family: Times New Roman;
+}
+
+
+
+
+/* https: //github.com/Artur-Ned/goit-markup-hw-06/blob/main/CSS/styles.css */
