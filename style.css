@@ -59,10 +59,8 @@ border-radius: 24px;
 }
 
 #people-list li:hover, #btnClous:hover {
-        transform: scale(1.1);
-        /* box-shadow: 0 0 43px 1px rgba(255, 193, 0.1) inset; */
-        /* box-shadow: 0 0 5px 1px rgba(255, 193, 0.1); */
-        transition: box-shadow 0.5s, transform 0.5s;
+    transform: scale(1.1);
+    transition: box-shadow 0.5s, transform 0.5s;
 }
 
 #people-list li:active, #btnClous:hover {
@@ -88,9 +86,7 @@ border-radius: 24px;
     font-size: 20px;
     border-radius: 25px;
     padding-top: 5px;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-    /* transform: rotate(180deg); */
-    /* transform: rotate(-180deg); */
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);  
     transition: transform top 5s, left 5s;
 }
 
@@ -116,24 +112,13 @@ border-radius: 24px;
     transition: top 5s, left 5s;
 } 
 
-
-
-
-
-
-
-
 #name {
-width: 300px;
-height: 40px;
-font-size: 30px;
-text-align: center;
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
 }
 
-/* #age, .age {
-width: 50%;
-
-} */
 .is-hidden {
     /* opacity: 0; */
     visibility: hidden;
@@ -159,18 +144,15 @@ width: 50%;
     margin-bottom: 0px;
     color: rgba(255, 193, 0.1);
     /* background-color: blue; */
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px;    
 }
 
 .div_btn {
     margin-left: 10px;
-
 }
 
 #top {
     background-image: url(img/11.png);
-   
     width: 38px;
     height: 140px;
     background-size: contain;
@@ -185,9 +167,8 @@ width: 50%;
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 37px;
-    
     width: 38px;
-        /* box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2); */
+    /* box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2); */
     height: 140px;
     margin-top: 2px;
 }
@@ -195,8 +176,8 @@ width: 50%;
 
  #top:hover, 
  #down:hover{
-cursor: pointer;
-box-shadow: 0 5px 30px 0 #005dd5 inset, 0 5px 30px 0 rgba(0, 93, 213, 1);
+    cursor: pointer;
+    box-shadow: 0 5px 30px 0 #005dd5 inset, 0 5px 30px 0 rgba(0, 93, 213, 1);
 /* box-shadow: 0 5px 30px 0 rgba(0, 93, 213, 1); */
 }
 
@@ -204,7 +185,6 @@ box-shadow: 0 5px 30px 0 #005dd5 inset, 0 5px 30px 0 rgba(0, 93, 213, 1);
 #down:active {
     cursor: pointer;
     box-shadow: 0 5px 30px 0 rgba(255, 193, 0.1) inset, 0 5px 30px 0 rgba(255, 193, 0.1);
-    /* box-shadow: 0 5px 30px 0 rgba(0, 93, 213, 1); */
 }
 
 #btnClous {
